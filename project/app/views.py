@@ -1,8 +1,5 @@
 from django.shortcuts import render, redirect
 from django.http import HttpResponse, JsonResponse
-import pandas as pd
-import import_ipynb
-
 from django.views.decorators.cache import cache_control, never_cache
 from django.views.decorators.csrf import csrf_exempt
 from django.contrib.auth.decorators import login_required
